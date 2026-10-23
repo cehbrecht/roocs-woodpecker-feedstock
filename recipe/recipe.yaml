@@ -12,7 +12,7 @@ source:
   sha256: 5e11f7668342411ae329fc7972aea96831123d552ff68ce2511ae9c4d39180f0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
@@ -30,7 +30,7 @@ requirements:
     - click >=8.1
     - lxml >=4.9
     - pydantic >=2.0
-    - prov >=2.0
+    - prov-core >=2.0
     - pyyaml >=6.0
     - rdflib >=7.0
     - xarray >=2024.1.0
